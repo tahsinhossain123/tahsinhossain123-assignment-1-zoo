@@ -62,3 +62,18 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
+
+.card_cheetah {
+  flex: 1;
+  width: 200px;
+  height: 260px;
+  display: inline-block;
+  border-radius: 10px;
+  background-image: url(../img/cheetah.gif);
+  background-size: contain; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
