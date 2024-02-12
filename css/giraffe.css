@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .background {
+    background-image: url('../img/back.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .logo {
+    width: 90px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+  }
+  
+  .title h1 {
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .description {
+    max-width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(217, 191, 107, 0.8); /* Modified background color for giraffe */
+    border-radius: 10px;
+  }
+  
+  .description p {
+    font-size: 15px;
+    color: #121111;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .giraffe-image {
+    max-width: 35%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+  }
+  
