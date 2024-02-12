@@ -8,7 +8,7 @@
   background-image: url('../img/back.jpeg');
   background-size: cover; /* Adjusts the background image to cover the entire container */
   background-position: center; /* Centers the background image */
-  width: 100%; /* Ensures the background covers the entire viewport width */
+  width: 100%; 
   height: 100vh; /* Sets the height to cover the entire viewport height */
 }
 
