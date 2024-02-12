@@ -112,3 +112,11 @@
 .card_giraffe:hover {
   transform: scale(1.07); 
 }
+
+
+.card_lion,
+.card_cheetah,
+.card_elephant,
+.card_giraffe {
+  position: relative;
+}
