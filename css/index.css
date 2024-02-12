@@ -104,3 +104,11 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/
 }
+
+
+.card_lion:hover,
+.card_cheetah:hover,
+.card_elephant:hover,
+.card_giraffe:hover {
+  transform: scale(1.07); 
+}
