@@ -8,11 +8,21 @@
   background-image: url('../img/back.jpeg');
   background-size: cover; /* Adjusts the background image to cover the entire container */
   background-position: center; /* Centers the background image */
-  width: 100%; 
+  width: 100%; /* Ensures the background covers the entire viewport width */
   height: 100vh; /* Sets the height to cover the entire viewport height */
 }
 
+.logo {
+  width: 110px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  margin-left: 25px;
+  margin-top: 20px;
+}
 
+.logo:hover {
+  transform: scale(1.1);
+}
 
 .title {
   text-align: center;
@@ -27,19 +37,6 @@
 .title h2 {
   font-size: 30px;
   color: #555;
-}
-
-
-.logo {
-  width: 110px;
-  height: auto;
-  transition: transform 0.3s ease-in-out;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.logo:hover {
-  transform: scale(1.1);
 }
 
 .card-container {
@@ -62,8 +59,6 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .card_cheetah {
   flex: 1;
@@ -91,7 +86,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/* Light Blue */
 }
 
-
 .card_giraffe {
   flex: 1;
   width: 200px;
@@ -105,13 +99,13 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/
 }
 
-
 .card_lion:hover,
 .card_cheetah:hover,
 .card_elephant:hover,
 .card_giraffe:hover {
-  transform: scale(1.07); 
+  transform: scale(1.07); /* Increasing the size of the card on hover */
 }
+
 
 
 .card_lion,
@@ -120,6 +114,7 @@
 .card_giraffe {
   position: relative;
 }
+
 
 .card_lion h3,
 .card_cheetah h3,
