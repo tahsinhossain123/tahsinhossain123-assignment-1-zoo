@@ -39,4 +39,15 @@
     border-radius: 15px; 
   }
   
+  .logo {
+    width: 90px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
   
