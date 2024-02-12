@@ -77,3 +77,16 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.card_elephant {
+  flex: 1;
+  width: 200px;
+  height: 260px;
+  display: inline-block;
+  border-radius: 10px;
+  background-image: url(../img/elephant.gif);
+  background-size: contain; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/* Light Blue */
+}
