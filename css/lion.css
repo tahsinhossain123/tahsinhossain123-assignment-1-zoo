@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .background {
+    background-image: url('../img/back.jpeg');
+    background-size: cover; /* Adjusts the background image to cover the entire container */
+    background-position: center; /* Centers the background image */
+    width: 100%; /* Ensures the background covers the entire viewport width */
+    height: 100vh; /* Sets the height to cover the entire viewport height */
+  }
+  
+  
+  .logo {
+    width: 90px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  .title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+  }
+  
+  .title h1 {
+    font-size: 40px;
+    color: #000000;
+  }
+  .description {
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(113, 167, 200, 0.8);
+    border-radius: 10px;
+  }
+
+  .description p {
+    font-size: 15px;
+    color: #121111;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .image-container {
+    text-align: center; /* Center the image horizontally */
+    margin-bottom: 20px; /* Add spacing between image and description */
+  }
+  
+  .lion-image {
+    max-width: 35%; 
+    display: block; 
+    margin: auto; 
+    border-radius: 15px; 
+  }
+  
