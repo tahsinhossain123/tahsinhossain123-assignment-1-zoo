@@ -1,5 +1,31 @@
-body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+.background {
+  background-image: url('../img/back.jpeg');
+  background-size: cover; /* Adjusts the background image to cover the entire container */
+  background-position: center; /* Centers the background image */
+  width: 100%; /* Ensures the background covers the entire viewport width */
+  height: 100vh; /* Sets the height to cover the entire viewport height */
+}
+
+
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.title h1 {
+  font-size: 60px;
+}
+
+.title h2 {
+  font-size: 30px;
+  color: #555;
+}
+
