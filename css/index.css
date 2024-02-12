@@ -29,3 +29,15 @@
   color: #555;
 }
 
+
+.logo {
+  width: 110px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
