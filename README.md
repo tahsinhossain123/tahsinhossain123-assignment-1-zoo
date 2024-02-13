@@ -14,4 +14,5 @@ This project involves creating a zoo website. It is a savannah-themed zoo, and i
 
 
 ## Contributors
-- Tahsin Hossain
+- Name: Tahsin Hossain
+- GitHub Username: tahsinhossain123
